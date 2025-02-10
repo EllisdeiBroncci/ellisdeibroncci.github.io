@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<!--===========================================================================
+ ! Holidays ~
+ !    Essentially an extension of the blog page, however with content more
+ !    specifically about my holidays than anything else.
+ ! Author(s): Alexander Del Brocco
+============================================================================-->
+
+<html lang="en">
+<!--Header Section ============================================================
+ !    Section that contains most of the meta data for the website.
+============================================================================-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJDB:C - Personal Holidays</title>
+  <meta name="author" content="Alexander del Brocco">
+  <meta name="description" content="Welcome to the AJDB:C, I am a Computer Science student at the University of Leeds">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/bootstrap/node_modules/bootstrap/scss/bootstrap.css">
+  <script defer src="../../js/geoLocator.js"></script>
+</head>
+
+<!--Body Section ==============================================================
+ !    Section that contains the actual viewable content of the website.
+============================================================================-->
+  <body>
+
+<!--Navigation Bar -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ !    Allows the user to access any part of the website from anywhere, at any
+ !    time.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <div class="nav-branch" id="nav-root-branch"> <!--Home Nav Button-->
+            <div class="nav-branch-root" id="nav-home">
+              <a class="nav-root" href="../homepage.html">
+                HOME
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Website Branches Side of Nav Bar -->
+
+        <!--Credentials - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <div class="nav-branches">
+
+          <div class="nav-branch" id="credentials-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" href="../credentials/home.html">
+                CREDENTIALS
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Credentials Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../../docs/curiculumvitae.pdf">
+                    CV
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../../docs/standin-cover-letter.pdf">
+                    Cover Letter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Projects - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+
+            <div class="nav-branch-root">
+              <a class="nav-root" href="../projects/home.html">
+                PROJECTS
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Projects Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../projects/projects-portfolio.html">
+                    Portfolio
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Personal - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+
+            <div class="nav-branch-root">
+              <a class="nav-root" href="../personal/home.html">
+                PERSONAL
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Personal Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../personal/blog.html">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../personal/hobbies.html">
+                    Hobbies
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../personal/holidays.html">
+                    Holidays
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Contact - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+
+            <div class="nav-branch-root">
+              <a class="nav-root" id="nav-contact" href="../contact/home.html">
+                CONTACT
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Contact Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../contact/form.html">
+                    Form
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../contact/status.html">
+                    Status
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+<!--Main Content of Website-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <main class="personal-pages" id="holidays">
+
+<!--Article 1 : Cooking Utencils -->
+
+      <!--Summary of Article-->
+      <section class="container-fluid">
+        <figure>
+          <img
+            class="in-container"
+            src="../../img/personal/VRV.jpg"
+            alt="River"
+          >
+          <figcaption>
+            River to Lac Leman
+          </figcaption>
+        </figure>
+        <div>
+
+          <h2>Switzerland: The Helvetti</h2>
+          
+          <hr>
+
+          <small id="milesAway"></small>
+
+          <p>
+            Switzerland was my choice of destination for my summer holiday in
+            2023, and in this article I reflect my time whilst being there, as
+            well as some of the best lifestyle changes I’ve made since
+            discovering the land of the Swiss.
+          </p>
+        </div>
+      </section>
+
+      <!--Main Content of Article-->
+      <article class="container-xxl">
+
+        <!--Text-->
+        <div class="left-column">
+
+          <h2>Switzerland: The Helvetti</h2>
+
+          <p>
+            Setting off on the train from Leeds, I flew out of Gatwick to
+            Geneva airport, arriving in the afternoon, only to be greeted with
+            the most magnificent sun I’ve ever felt on my skin. As I walked to
+            the city centre with my friend, we had our first proper look at
+            Geneva. The water was such an incredible blue that we both knew
+            then and there at some point we had to swim in it, but for now with
+            all of our baggage, we’d have to leave it for another day. From
+            there we crossed over the river and explored the old city, which
+            noticeably had a completely different vibe from the rest of the
+            city. Whilst most of the modern parts of the city were made up of
+            high street stores and newly laid cobbles that facilitated tram
+            transport, the old town sat on a hill that led to essentially what
+            could be described as an immediate cliff edge. This meant that all
+            throughout moving through the town, you were either going uphill,
+            or downhill.
+          </p>
+
+          <br>
+
+          <p>
+            Once our time window was up we took a train through Lausanne to
+            Leysin, which is where our accommodation was. For once in my life I
+            picked up a newspaper and read through all of it. I found it far
+            more satisfying than reading anything online, as the paper was
+            physically there, and the smell of the newspaper is iconic. There’s
+            something about reading something on a physical page which is so
+            much more memorizing and real than it is reading it off a computer
+            screen.
+
+          <br>
+
+          <p>
+            The next day we made our way down into the valley to take a dip in
+            the water, and to our surprise it was extremely cold. This is
+            because the lake is only supplied by the mountain snow melting and
+            making its way down the mountain into the lake. The water heats up
+            on it’s way down, but by the time it makes it to the lake it’s
+            still nearing freezing. Of course this didn’t deter us from diving
+            in from the rocks of Chateau de Chillon, and exposing ourselves to
+            what must’ve been around 10 degree celsius water, which begins to
+            numb your skin after two minutes.
+          </p>
+
+          <br>
+
+        </div>
+
+        <!--Images on Aside-->
+        <aside class="right-column">
+          <figure>
+            <img 
+              class="in-container"
+              src="../../img/personal/VDV.jpg"
+              alt="Panorama view of the Vaud"              
+            >
+            <figcaption>View of the Vaud Valley </figcaption>
+          </figure>
+
+          <figure>
+            <img 
+              class="in-container"
+              src="../../img/personal/CDC.jpg"
+              alt="Courtyard of Chillion"
+            >
+            <figcaption>Chillion's first courtyard</figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="in-container"
+              src="../../img/personal/LLM.jpg"
+              alt="River passing through Geneva"  
+            >
+            <figcaption>The beautiful blue waters of Geneva</figcaption>
+          </figure>
+        </aside>
+      </article>
+
+    </main>
+
+<!--Footer Section ============================================================
+ !    Marks the end of the webpage, as well as containing helpful links 
+ !    and the copyright
+============================================================================-->
+    <footer>
+
+<!--Copyright Section -->
+      <div class="copyright">
+
+        <!--To Top Button-->
+        <a href="#" id="to-top">Back to Top of Page</a>
+        <script src="../../js/toTop.js"></script>
+
+        <!--Generic Copryright for Creative Content-->
+        <small>&copy; 2024 Alexander Del Brocco</small>
+      </div>
+
+      <!--Seperator for Map-->
+      <div class="seperator"></div>
+
+<!--Website Map 
+  !    Gives the user a "no-nonsense" view of the webpage, almost like a
+  !    file directory, to provide a transparent means of navigation once
+  !    a user has already arrived at the bottem of the page.
+  !-->   
+      <div class="map">
+        <ul class="map">
+          <li> <!--Map Root, Homepage-->
+            <a href="../homepage.html">Homepage</a>
+          </li>
+
+          <!--Map Branch : Credentials Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="../credentials/home.html">Credentials - Home</a>
+              </li>
+
+              <li><hr></li> <!--Map Leaves, Credentials-->
+
+              <li>
+                <ul>
+                  <li><a href="../../docs/curiculumvitae.pdf">CV</a></li>
+                  <li><a href="../../docs/standin-cover-letter.pdf">Cover Letter</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--Map Branch : Projects Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="../projects/home.html">Projects - Home</a>
+              </li>
+
+              <li><hr></li>
+
+              <li>
+                <ul> <!--Map Leaves, Projects-->
+                  <li><a href="../projects/projects-portfolio.html">Portfolio</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--Map Branch : Personal Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="../personal/home.html">Personal - Home</a>
+              </li>
+
+              <li><hr></li>
+
+              <li>
+                <ul> <!--Map Leaves, Personal-->
+                  <li><a href="../personal/blog.html">Blog</a></li>
+                  <li><a href="../personal/hobbies.html">Hobbies</a></li>
+                  <li><a href="../personal/holidays.html">Holidays</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

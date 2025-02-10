@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<!--===========================================================================
+ ! Homepage ~
+ !    The is the main page that stands at the stop of the web tree, introducing
+ !    the user to all of the branches of the webpage, as well as briefly 
+ !    showcasing myself and the sections, allowing them to choose which branch
+ !    they would like to persue.
+ !
+ ! Author(s): Alexander Del Brocco
+============================================================================-->
+
+<html lang="en">
+<!--Header Section ============================================================
+ !    Section that contains most of the meta data for the website.
+============================================================================-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJDB:C - Homepage</title>
+    <meta name="author" content="Alexander del Brocco">
+    <meta name="description" content="Welcome to the AJDB:C, I am a Computer Science student at the University of Leeds">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/fadeIn.js"></script>
+  </head>
+
+<!--Body Section ==============================================================
+ !    Section that contains the actual viewable content of the website.
+============================================================================-->
+  <body>
+
+<!--Navigation Bar -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ !    Allows the user to access any part of the website from anywhere, at any
+ !    time.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <div class="nav-branch" id="nav-root-branch"> <!--Home Nav Button-->
+            <div class="nav-branch-root" id="nav-home">
+              <a class="nav-root" href="homepage.html">
+                HOME
+              </a>
+            </div>
+          </div>
+        </div>
+
+<!--Website Branches Side of Nav Bar-->
+
+<!--Credentials - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <div class="nav-branches">
+          <div class="nav-branch" id="credentials-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" href="credentials/home.html">
+                CREDENTIALS
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Credentials Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../docs/curiculumvitae.pdf">
+                    CV
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../docs/standin-cover-letter.pdf">
+                    Cover Letter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+<!--Projects - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" href="projects/home.html">
+                PROJECTS
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Projects Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="projects/projects-portfolio.html">
+                    Portfolio
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+<!--Personal - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" href="personal/home.html">
+                PERSONAL
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Personal Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="personal/blog.html">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="personal/hobbies.html">
+                    Hobbies
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="personal/holidays.html">
+                    Holidays
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+<!--Contact - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" id="nav-contact" href="contact/home.html">
+                CONTACT
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Contact Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="contact/form.html">
+                    Form
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="contact/status.html">
+                    Status
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!--Homepage Content -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ !    Main body of visible content of the homepage.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-->
+
+<!--Gallery : Main Image
+ !    Panorama view of the montains to set the theme of the website.
+ !-->
+    <main class="homepage">
+
+      <div class="full-width" id="homepage-gallery">
+        <h1 class="hidden">
+          My Personal Website - Homepage
+        </h1>
+      <img
+        class="in-container"
+        src="../img/homepage/LYS.jpg"
+        alt="Panoramic view of mountains"
+      >
+      </div>
+
+<!--Introduction Section
+ !    A picture and a few words about myself to introduce the website.
+ !-->
+      <div class="full-width" id="homepage-intro">
+
+        <!--Profile Picture-->
+        <div class="profile-picture">
+          <img 
+            class="in-container"
+            src="../img/homepage/pfp.jpg"
+            alt="Profile Picture"  
+          >
+        </div>
+
+<!--Main Contents of Introduction-->
+        <div class="contents">
+
+<!--Introductory Text - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="text-box">
+
+            <p class="in-container">
+              <em>
+                Hi, I'm Alexander, and I'm a Computer
+                Science student at the University of Leeds, interested in producing
+                understandable mathematical solutions to problems, and turning them into
+                algorithms that simplify our everyday lives. As well as being
+                captured by logical problems, I enjoy other things such as history,
+                politics, and economics, as well as music, design, adventure and
+                culture to name a few. I'm find myself drawn to enthusiasm:
+                I find it to be only a matter
+                of time before I discover where all their passion comes from.
+              </em>
+            </p>
+          </div>
+
+<!--Introductory Links - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="button-box">
+
+            <a class="button" href="credentials/home.html">
+              Credentials
+            </a>
+            <a class="button" href="contact.html">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+
+<!--Website Breakdown
+ !    An introduction to each section, along with a related image to  
+ !    introduce each branch of the website, to guide the user in.
+ !-->
+      <div class="centre-width" id="homepage-breakdown">
+
+<!--Top Section : Credentials Breakdown - - - - - - - - - - - - - - - - - - -->
+        <div class="section">
+
+          <!--Related Image-->
+          <div class="left-column hidden">
+            <img
+              class="in-container"
+              src="../img/credentials/HRS.jpg"
+              alt="Science Equipment"
+            >
+          </div>
+
+          <!--Credentials Introduction & Links-->
+          <div class="right-column hidden">
+
+            <div class="contents">
+              <div class="text-box">
+                <p>
+                  <i>
+                    Qualifications are a benchmark of standards, and whilst it doesn't
+                    garauntee quality and expertise, it certainly provides assurance of
+                    academic experience in areas, as well as the consiestent effort
+                    required to gain such grades.
+                  </i> 
+                </p>
+              </div>
+              <div class="button-box">
+                <a class="button" href="credentials/home.html">
+                  Credentials Page
+                </a>
+                <a class="button" href="../docs/curiculumvitae.pdf">
+                  Curiculum Vitae
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!--Middle Section : Projects Breakdown - - - - - - - - - - - - - - - - - - -->
+        <div class="section">
+
+          <!--Projects Introduction & Links-->
+          <div class="left-column hidden">
+            <div class="contents">
+              <div class="text-box">
+                <p>
+                  <i>
+                    Programming projects coded in university as well as my spare time,
+                    as a practice of specifying problems, planning solutions, testing
+                    their robustness, and thinking logically. Whilst not everything
+                    is going to be world class, programming is
+                    something that evolves over time.
+                  </i>
+                </p>
+              </div>
+              <div class="button-box">
+                <a class="button" href="projects/home.html">
+                  Projects Page
+                </a>
+                <a class="button" href="projects/projects-portfolio.html">
+                  Portfolio
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Related Image-->
+          <div class="right-column hidden">
+            <img 
+              class="in-container"
+              src="../img/projects/HME.jpg" 
+              alt="Computer Set-UP"
+            >
+          </div>
+        </div>
+
+<!--Bottom Section : Personal Breakdown - - - - - - - - - - - - - - - - - - -->
+        <div class="section">
+
+          <!--Related Image-->
+          <div class="left-column hidden">
+            <img 
+              class="in-container"
+              src="../img/personal/PRS.jpg"
+              alt="Balcony in Paris"
+            >
+          </div>
+
+          <!--Personal Introduction & Links-->
+          <div class="right-column hidden">
+            <div class="contents">
+              <div class="text-box">
+                <p>
+                  <i>
+                    Life isn't all code, and in order to work well, and preform inspiring
+                    solutions, we have to live well to nuture that ever scarce creativity.
+                  </i>
+                </p>
+              </div>
+              <div class="button-box">
+                <a class="button" href="personal/home.html">
+                  Personal Page
+                </a>
+                <a class="button" href="personal/blog.html">
+                  My Blog
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+<!--Footer Section ============================================================
+ !    Marks the end of the webpage, as well as containing helpful links 
+ !    and the copyright
+============================================================================-->
+    <footer>
+
+      <!--Copyright Section -->
+      <div class="copyright">
+
+        <!--To Top Button-->
+        <a href="#" id="to-top">Back to Top of Page</a>
+        <script src="../js/toTop.js"></script>
+
+        <!--Generic Copryright for Creative Content-->
+        <small>&copy; 2024 Alexander Del Brocco</small>
+      </div>
+
+      <!--Seperator for Map-->
+      <div class="seperator"></div>
+
+<!--Website Map 
+ !    Gives the user a "no-nonsense" view of the webpage, almost like a
+ !    file directory, to provide a transparent means of navigation once
+ !    a user has already arrived at the bottem of the page.
+ !-->   
+      <div class="map">
+        <ul class="map">
+          <li> <!--Map Root, Homepage-->
+            <a href="homepage.html">Homepage</a>
+          </li>
+
+          <!--Map Branch : Credentials Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="credentials/home.html">Credentials - Home</a>
+              </li>
+
+              <li><hr></li> <!--Map Leaves, Credentials-->
+
+              <li>
+                <ul>
+                  <li><a href="../docs/curiculumvitae.pdf">CV</a></li>
+                  <li><a href="../docs/standin-cover-letter.pdf">Cover Letter</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--Map Branch : Projects Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="projects/home.html">Projects - Home</a>
+              </li>
+
+              <li><hr></li>
+
+              <li>
+                <ul> <!--Map Leaves, Projects-->
+                  <li><a href="projects/projects-portfolio.html">Portfolio</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--Map Branch : Personal Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="personal/home.html">Personal - Home</a>
+              </li>
+
+              <li><hr></li>
+
+              <li>
+                <ul> <!--Map Leaves, Personal-->
+                  <li><a href="personal/blog.html">Blog</a></li>
+                  <li><a href="personal/hobbies.html">Hobbies</a></li>
+                  <li><a href="personal/holidays.html">Holidays</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<!--===========================================================================
+ ! Hobbies ~
+ !    Essentially an extension of the blog page, however with content more
+ !    specifically about my hobbies than anything else.
+ ! Author(s): Alexander Del Brocco
+============================================================================-->
+
+<html lang="en">
+<!--Header Section ============================================================
+ !    Section that contains most of the meta data for the website.
+============================================================================-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJDB:C - Personal Hobbies</title>
+  <meta name="author" content="Alexander del Brocco">
+  <meta name="description" content="Welcome to the AJDB:C, I am a Computer Science student at the University of Leeds">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/bootstrap/node_modules/bootstrap/scss/bootstrap.css">
+  <script defer src="../../js/fadeIn.js"></script>
+</head>
+
+<!--Body Section ==============================================================
+ !    Section that contains the actual viewable content of the website.
+============================================================================-->
+  <body>
+
+<!--Navigation Bar -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ !    Allows the user to access any part of the website from anywhere, at any
+ !    time.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <div class="nav-branch" id="nav-root-branch"> <!--Home Nav Button-->
+            <div class="nav-branch-root" id="nav-home">
+              <a class="nav-root" href="../homepage.html">
+                HOME
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--Website Branches Side of Nav Bar -->
+
+        <!--Credentials - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <div class="nav-branches">
+          <div class="nav-branch" id="credentials-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" href="../credentials/home.html">
+                CREDENTIALS
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Credentials Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../../docs/curiculumvitae.pdf">
+                    CV
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../../docs/standin-cover-letter.pdf">
+                    Cover Letter
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Projects - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" href="../projects/home.html">
+                PROJECTS
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Projects Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../projects/projects-portfolio.html">
+                    Portfolio
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Personal - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" href="../personal/home.html">
+                PERSONAL
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Personal Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../personal/blog.html">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../personal/hobbies.html">
+                    Hobbies
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../personal/holidays.html">
+                    Holidays
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Contact - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+          <div class="nav-branch">
+            <div class="nav-branch-root">
+              <a class="nav-root" id="nav-contact" href="../contact/home.html">
+                CONTACT
+              </a>
+            </div>
+
+            <!--Dropdown Menu for Contact Branch-->
+            <div class="nav-branch-leaves">
+              <ul>
+                <li>
+                  <a class="nav-leaf" href="../contact/form.html">
+                    Form
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-leaf" href="../contact/status.html">
+                    Status
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+<!--Main Content of Website-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-->
+    <main class="personal-pages">
+
+<!--Article 1 : Cooking Utencils -->
+
+      <!--Summary of Article-->
+      <section class="container-fluid">
+        <figure>
+          <img 
+            class="in-container"
+            src="../../img/personal/WZW.jpg"
+            alt="Fancy Vegan Dish"
+          >
+          <figcaption>
+            Polish Vegtable dish
+          </figcaption>
+        </figure>
+
+        <div>
+          <h2>On Personal Culinary Practice</h2>
+          
+          <hr>
+
+          <p>
+            Cooking plays an important role in my life, especially since it was
+            my job for two years, here I talk about some of the essentials of a
+            kitchen.
+          </p>
+        </div>
+      </section>
+
+      <!--Main Text of Article-->
+      <article class="container-xxl">
+
+        <h2>On Personal Culinary Practice</h2>
+
+        <p>
+          Cooking is a part of our lives that is both a blessing and a curse.
+          Especially in the modern world, where there are so many other things
+          to do than surviving, it’s not a surprise that most people find it a
+          chore, which they’d much rather have someone else do for them, or
+          just not bother with it entirely. Personally, I believe that cooking
+          can range from anywhere between extremely complicated and difficult,
+          to satisfyingly simple, with ends of the spectrum fitting in for your
+          mood of the day. Sometimes, we either don’t have time to cook or we
+          simply just don’t feel like it. Other times, it’s imperative that we
+          make that extra effort, and we'll do as much as that is in our power
+          to make the dish perfect. So how can we strike a balance with cooking
+          being between the two? Here’s what I’ve learnt so far.
+        </p>
+
+        <br>
+
+        <p>
+          Ensure that you have the right equipment for the job. Fundamentally,
+          you need a sharp knife to handle all of your chopping, paired with a
+          good, preferably wooden, chopping board. I’ve personally found a lot
+          of knife dulling occurs simply because of the surface you chop on,
+          and wood is best for maintaining your blade. Make sure you have a
+          decently sized wooden chopping board, and a slightly smaller plastic
+          one for small bites and chopping raw meats on, or anything that might
+          leak out onto the chopping board. You’ll also want means of cooking
+          on a stove. Assuming you already have some form of stove, you’ll want
+          a frying pan and a sauce pan. Along with these you’ll want means of
+          stirring, with a maurice for my preference, as well as a medium sized
+          whisk for anything that’s more viscous. You’ll also need basic
+          cutlery, that is a knife, fork, tablespoon, teaspoon along with a
+          large plate, a small plate and a bowl, however these are for serving
+          and don’t really come under this section, but you can use these
+          things as kitchen tools as well.
+        </p>
+
+        <br>
+
+        <p>
+
+        </p>
+
+        <br>
+
+      </article>
+    </main>
+
+<!--Footer Section ============================================================
+ !    Marks the end of the webpage, as well as containing helpful links 
+ !    and the copyright
+============================================================================-->
+    <footer>
+
+<!--Copyright Section -->
+      <div class="copyright">
+
+        <!--To Top Button-->
+        <a href="#" id="to-top">Back to Top of Page</a>
+        <script src="../../js/toTop.js"></script>
+
+        <!--Generic Copryright for Creative Content-->
+        <small>&copy; 2024 Alexander Del Brocco</small>
+      </div>
+
+      <!--Seperator for Map-->
+      <div class="seperator"></div>
+
+<!--Website Map 
+  !    Gives the user a "no-nonsense" view of the webpage, almost like a
+  !    file directory, to provide a transparent means of navigation once
+  !    a user has already arrived at the bottem of the page.
+  !-->   
+      <div class="map">
+        <ul class="map">
+          <li> <!--Map Root, Homepage-->
+            <a href="../homepage.html">Homepage</a>
+          </li>
+
+          <!--Map Branch : Credentials Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="../credentials/home.html">Credentials - Home</a>
+              </li>
+
+              <li><hr></li> <!--Map Leaves, Credentials-->
+
+              <li>
+                <ul>
+                  <li><a href="../../docs/curiculumvitae.pdf">CV</a></li>
+                  <li><a href="../../docs/standin-cover-letter.pdf">Cover Letter</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--Map Branch : Projects Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="../projects/home.html">Projects - Home</a>
+              </li>
+
+              <li><hr></li>
+
+              <li>
+                <ul> <!--Map Leaves, Projects-->
+                  <li><a href="../projects/projects-portfolio.html">Portfolio</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!--Map Branch : Personal Branch -->
+          <li>
+            <ul>
+              <li>
+                <a href="../personal/home.html">Personal - Home</a>
+              </li>
+
+              <li><hr></li>
+
+              <li>
+                <ul> <!--Map Leaves, Personal-->
+                  <li><a href="../personal/blog.html">Blog</a></li>
+                  <li><a href="../personal/hobbies.html">Hobbies</a></li>
+                  <li><a href="../personal/holidays.html">Holidays</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
